@@ -1,0 +1,31 @@
+#Scythe
+left-click-replant: true
+right-click-to-harvest: true
+require-tool-for-replant: false
+require-tool-for-right-click-harvest: false
+#Only applies if "require-tool-for-replant" or "require-tool-for-right-click-harvest" is true.
+#These must be declared as you would write them to summon them in vanilla minecraft
+replant-tools:
+  - "minecraft:wooden_hoe"
+  - "minecraft:stone_hoe"
+  - "minecraft:iron_hoe"
+  - "minecraft:golden_hoe"
+  - "minecraft:diamond_hoe"
+  - "minecraft:netherite_hoe"
+
+play-sounds: true
+sound: BLOCK_CROP_BREAK
+sound-volume: 1
+sound-pitch: 1
+break-particles: true
+#Please choose a particle from this list: https://jd.papermc.io/paper/1.20/org/bukkit/Particle.html
+particle: CRIT
+particle-count: 4
+#crops the plugin should work on
+allowed-crops:
+  - BEETROOTS
+  - CARROTS
+  - COCOA
+  - NETHER_WART
+  - POTATOES
+  - WHEAT
