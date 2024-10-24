@@ -60,8 +60,8 @@ messages:
     connection-throttle: Connection throttled! Please wait before reconnecting.
     flying-player: <lang:multiplayer.disconnect.flying>
     flying-vehicle: <lang:multiplayer.disconnect.flying>
-  no-permission: <red>I'm sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.
+  no-permission: <red>Who bobo think bobo are!? Go ask monki king if bobo think this
+    is an error
   use-display-name-in-quit-message: false
 misc:
   chat-threads:
@@ -122,11 +122,11 @@ timings:
   url: https://timings.aikar.co/
   verbose: true
 unsupported-settings:
-  allow-headless-pistons: false
-  allow-permanent-block-break-exploits: false
-  allow-piston-duplication: false
-  allow-tripwire-disarming-exploits: false
-  allow-unsafe-end-portal-teleportation: false
+  allow-headless-pistons: true
+  allow-permanent-block-break-exploits: true
+  allow-piston-duplication: true
+  allow-tripwire-disarming-exploits: true
+  allow-unsafe-end-portal-teleportation: true
   compression-format: ZLIB
   perform-username-validation: true
   skip-vanilla-damage-tick-when-shield-blocked: false

@@ -31,8 +31,8 @@ defaults:
   amount: 1
   equipped: 1.0
   equip-offhand: true
-  equip-on-helmet: false
-  only-drop-if-equipped: false
+  equip-on-helmet: true
+  only-drop-if-equipped: true
   player-caused: true
   nomultiplier: true
   nospawner: false

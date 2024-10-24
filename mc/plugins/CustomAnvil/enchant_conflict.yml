@@ -312,7 +312,7 @@ protection_enchant_conflict:
   - minecraft:projectile_protection
   - minecraft:protection
   notAffectedGroups: []
-  maxEnchantmentBeforeConflict: 1
+  maxEnchantmentBeforeConflict: 2
 
 trident_conflict1:
   enchantments:
@@ -347,14 +347,14 @@ bow_conflict:
   - minecraft:mending
   - minecraft:infinity
   notAffectedGroups: []
-  maxEnchantmentBeforeConflict: 1
+  maxEnchantmentBeforeConflict: 2
 
 crossbow_conflict:
   enchantments:
   - minecraft:multishot
   - minecraft:piercing
   notAffectedGroups: []
-  maxEnchantmentBeforeConflict: 1
+  maxEnchantmentBeforeConflict: 2
 restriction_density:
   enchantments:
   - minecraft:density
@@ -379,7 +379,7 @@ mace_enchant_conflict:
   - minecraft:breach
   - minecraft:smite
   - minecraft:bane_of_arthropods
-  maxEnchantmentBeforeConflict: 1
+  maxEnchantmentBeforeConflict: 2
 
 # ----------------------------------------------------
 # Bellow is for custom conflicts.

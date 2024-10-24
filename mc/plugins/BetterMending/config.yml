@@ -2,7 +2,7 @@
 
 # Automatically repair all damaged tools in player inventory
 # true: auto-repair false: default repair
-auto-repair: false
+auto-repair: true
 
 # Prevent mending item destroy when you don't have enough experience
 # true: prevent destroy false: default destroy

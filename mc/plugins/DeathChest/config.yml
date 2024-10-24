@@ -14,20 +14,20 @@ duration-format: 'mm:ss'
 chest:
   # The expiration of the chest in seconds.
   # You can deactivate the expiration by setting the value to -1
-  expiration: 600
+  expiration: -1
   no-expiration-permission:
     enabled: false
     permission: 'deathchest.stays-forever'
   # If this feature is enabled all caught items will be dropped if the chest has expired.
-  drop-items-after-expiration: false
+  drop-items-after-expiration: true
   # Set this option to true if you want to protect the death chests against explosions.
-  blast-protection: false
+  blast-protection: true
 
   # This option protects the death chest against thieves if the player has the specific permission and the thief
   # not the bypass permission.
   thief-protection:
     # Set the value to 'true' if you want to activate this feature
-    enabled: false
+    enabled: true
     permission: 'deathchest.thiefprotected'
     bypass-permission: 'deathchest.thiefprotected.bypass'
     # To enable the expiration set the number to number greater than 0. The unit of this variable is seconds.
@@ -37,7 +37,7 @@ chest:
     # If you want to disable the sound or the message, you can delete these options
     sound: BLOCK_CHEST_LOCKED;1.0;1.0
     message: |-
-      &cYou are not permitted to open this chest
+      &cNot your chest bobo!?
 
 # Here you can modify the inventory which opens when you right-click the death chest. You can use color codes with '&'
 # in the title and change the inventory size by changing the size value.
@@ -66,10 +66,9 @@ hologram:
   #             ${player_displayname}: Displayname
   #             ${duration}: Time left
   lines:
-    - '&7&lR.I.P'
+    - '&7&lNgu thi chet'
     - '${player_name}'
     - '&3-&6-&3-&6-&3-&6-&3-'
-    - '${duration}'
 
 # This section is for handling the particle function in this plugin. You can remove this section to disable the feature,
 # or you set the 'enabled' option to false
@@ -98,7 +97,7 @@ player-notification:
   # Set the value to 'false' if you want to deactivate this feature
   enabled: true
   message: |-
-    &7You died. Your items were put into a chest which disappears after &c10 minutes&7! ${x} ${y} ${z}
+    &7Bobo died in ${x} ${y} ${z}
 
 # Available Placeholders:
 # ${player_name} : shows the player name
@@ -108,7 +107,7 @@ player-notification:
 # ${chest_x}, ${chest_y}, ${chest_z} : shows the coordinates of the chest
 global-notification:
   # Set the value to 'true' if you want to activate this feature
-  enabled: false
+  enabled: true
   message: |-
     &7${player_name} died at ${x} ${y} ${z} in ${world}
 

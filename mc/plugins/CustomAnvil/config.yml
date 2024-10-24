@@ -21,7 +21,7 @@ limit_repair_value: 39
 #
 # The anvil will still visually display "Too Expensive" if "replace_too_expensive" is disabled
 # However, the action will be completable if xp requirement is meet.
-remove_repair_limit: false
+remove_repair_limit: true
 
 # Whenever anvil cost is above 39 should display the true price and not "Too Expensive".
 #
@@ -30,24 +30,24 @@ remove_repair_limit: false
 # That mean you also need to change other settings like remove_repair_limit or limit_repair_cost.
 #
 # Require ProtocoLib.
-replace_too_expensive: false
+replace_too_expensive: true
 
 # XP Level amount added to the anvil when the item is repaired by another item of the same type
 #
 # Valid values include 0 to 1000
-item_repair_cost: 2
+item_repair_cost: 0
 
 # XP Level amount added to the anvil when the item is renamed
 #
 # Valid values include 0 to 1000
-item_rename_cost: 1
+item_rename_cost: 0
 
 # XP Level amount added to the anvil when the item is repaired by an "unit"
 # For example: a Diamond on a Diamond Sword
 # What's considered unit for what can be edited on the unit repair configuration.
 #
 # Valid values include 0 to 1000
-unit_repair_cost: 1
+unit_repair_cost: 0
 
 # XP Level amount added to the anvil when a sacrifice enchantment
 # conflict with one of the left item enchantment
@@ -59,18 +59,18 @@ sacrifice_illegal_enchant_cost: 1
 #
 # Color code are prefixed by "&" and hexadecimal color by "#".
 # Color code will not be applied if it colors nothing. "&&" can be used to write "&".
-allow_color_code: false
-allow_hexadecimal_color: false
+allow_color_code: true
+allow_hexadecimal_color: true
 
 # Toggle if color should only be applicable if the player a certain permission.
 #
 # permission are "ca.color.code" for use of color code and "ca.color.hex" for use of hexadecimal color.
-permission_needed_for_color: true
+permission_needed_for_color: false
 
 # Xp cost if the player use color in the items name on rename.
 #
 # Valid values include 0 to 1000.
-use_of_color_cost: 0
+use_of_color_cost: 10
 
 # Work penalty increase the price for every anvil use.
 # This config allow you to choose the comportment of work penalty.
@@ -107,39 +107,39 @@ enchant_limits:
   minecraft:silk_touch: 1
   minecraft:vanishing_curse: 1
   minecraft:depth_strider: 3 # anything more than 3 is treated as 3 by the game
-  minecraft:protection: 4
-  minecraft:fire_protection: 4
-  minecraft:blast_protection: 4
-  minecraft:projectile_protection: 4
-  minecraft:feather_falling: 4
-  minecraft:thorns: 3
-  minecraft:respiration: 3
-  minecraft:sharpness: 5
-  minecraft:smite: 5
-  minecraft:bane_of_arthropods: 5
-  minecraft:knockback: 2
-  minecraft:fire_aspect: 2
-  minecraft:looting: 3
-  minecraft:sweeping: 3
-  minecraft:sweeping_edge: 3
+  minecraft:protection: 7
+  minecraft:fire_protection: 7
+  minecraft:blast_protection: 7
+  minecraft:projectile_protection: 7
+  minecraft:feather_falling: 5
+  minecraft:thorns: 5
+  minecraft:respiration: 4
+  minecraft:sharpness: 7
+  minecraft:smite: 7
+  minecraft:bane_of_arthropods: 7
+  minecraft:knockback: 3
+  minecraft:fire_aspect: 3
+  minecraft:looting: 4
+  minecraft:sweeping: 4
+  minecraft:sweeping_edge: 4
   minecraft:efficiency: 5
-  minecraft:unbreaking: 3
-  minecraft:fortune: 3
-  minecraft:power: 5
-  minecraft:punch: 2
-  minecraft:luck_of_the_sea: 3
-  minecraft:lure: 3
-  minecraft:frost_walker: 2
+  minecraft:unbreaking: 5
+  minecraft:fortune: 2
+  minecraft:power: 7
+  minecraft:punch: 3
+  minecraft:luck_of_the_sea: 5
+  minecraft:lure: 4
+  minecraft:frost_walker: 3
   minecraft:impaling: 5
-  minecraft:riptide: 3
-  minecraft:loyalty: 3
-  minecraft:piercing: 4
-  minecraft:quick_charge: 3
-  minecraft:soul_speed: 3
-  minecraft:swift_sneak: 3
+  minecraft:riptide: 6
+  minecraft:loyalty: 5
+  minecraft:piercing: 5
+  minecraft:quick_charge: 4
+  minecraft:soul_speed: 5
+  minecraft:swift_sneak: 5
   minecraft:density: 5
-  minecraft:breach: 4
-  minecraft:wind_burst: 3
+  minecraft:breach: 6
+  minecraft:wind_burst: 4
 
 # Multipliers used to calculate the enchantment's value in repair/combining
 #
@@ -172,8 +172,8 @@ enchant_values:
     item: 4
     book: 2
   minecraft:efficiency:
-    item: 1
-    book: 1
+    item: 3
+    book: 2
   minecraft:flame:
     item: 4
     book: 2
@@ -226,17 +226,17 @@ enchant_values:
     item: 1
     book: 1
   minecraft:projectile_protection:
-    item: 2
-    book: 1
+    item: 3
+    book: 2
   minecraft:protection:
-    item: 1
-    book: 1
+    item: 3
+    book: 2
   minecraft:punch:
     item: 4
     book: 2
   minecraft:quick_charge:
-    item: 2
-    book: 1
+    item: 5
+    book: 3
   minecraft:respiration:
     item: 4
     book: 2
@@ -247,17 +247,17 @@ enchant_values:
     item: 8
     book: 4
   minecraft:sharpness:
-    item: 1
-    book: 1
+    item: 4
+    book: 2
   minecraft:smite:
-    item: 2
-    book: 1
+    item: 4
+    book: 2
   minecraft:soul_speed:
-    item: 8
-    book: 4
+    item: 5
+    book: 2
   minecraft:swift_sneak:
-    item: 8
-    book: 4
+    item: 5
+    book: 2
   minecraft:sweeping:
     item: 4
     book: 2
@@ -268,8 +268,8 @@ enchant_values:
     item: 8
     book: 4
   minecraft:unbreaking:
-    item: 2
-    book: 1
+    item: 3
+    book: 2
   minecraft:vanishing_curse:
     item: 8
     book: 4
@@ -304,7 +304,7 @@ debug_log_verbose: false
 # If you see "missing class exception" or similar you may test this.
 # If enabled and Protocolib absent or disabled "Replace to expensive" will not work.
 # ProtocoLib may also be used if the server is in an "unsupported" version even if this option is disabled.
-force_protocolib: false
+force_protocolib: true
 
 configVersion: 1.6.2
 lowMinecraftVersion: '1.21'

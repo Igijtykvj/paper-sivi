@@ -50,7 +50,7 @@ capsule:
 capsule-crafting-recipe:
   # Do you want to use the crafting recipe for your capsule?
   # You will need to restart your server if you change this value.
-  use-capsule-crafting-recipe: false
+  use-capsule-crafting-recipe: true
   # Here you can define how the recipe looks in your crafting table. Each new line is a crafting table slot going from left to right with a max of 9 slots.
   # If you want the slot to be blank, set it to " ".
   # The default shape would look like this (using the 1st letter of each item):
@@ -68,7 +68,7 @@ capsule-crafting-recipe:
   - Egg
   - Egg
   # This value lets you change how many capsules will you receive when crafting.
-  recipe-result-amount: 1
+  recipe-result-amount: 2
 ##################################
 #   Capsule Throwing Behaviour   #
 ##################################
@@ -104,12 +104,12 @@ catch-baby-mobs: true
 catch-sheared-mobs: true
 # Do you want tamed mobs to be caught? (These mobs can be caught by everyone, it is best to keep this false to avoid pet theft)
 # Example: wolf, cat, donkey, horse, llama, parrot, mule, etc.
-catch-tamed-mobs: false
+catch-tamed-mobs: true
 # Whether you want the value 'catch-tamed-mobs' above to be ignored for camels.
 # As camels are always counted as tamed, having 'catch-tamed-mobs: false' will result in camels being un-catchable. Set this value to true to avoid this issue.
 ignore-catch-tamed-mobs-value-for-camels: true
 # Do you want mobs that have been named with a name tag or anvil to be caught?
-catch-named-mobs: true
+catch-named-mobs: false
 # If the above is set to 'true', do you want named mobs to keep their names?
 # If this value is set to 'false' the name will be removed.
 named-mobs-keep-name: true

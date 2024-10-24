@@ -1,4 +1,4 @@
-2024-10-23 18:29:22 jdbc[4]: exception
+2024-10-23 22:47:05 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Index "IDX_LOG_PURCHASE_SHOP" already exists; SQL statement:
 ALTER TABLE `log_purchase` ADD INDEX `idx_log_purchase_shop`(`shop`) [42111-214]
 	at QuickShop-Hikari-6.2.0.7.jar//org.h2.message.DbException.getJdbcSQLException(DbException.java:502)

@@ -1,966 +1,142 @@
-[18:45:02] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7; Arch Linux null) on Linux 6.11.3-arch1-1 (amd64)
-[18:45:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) for Minecraft 1.21.1
-[18:45:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:45:03] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.8.jar'...
-[18:45:03] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vulcan-2.9.1.jar'...
-[18:45:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/orebfuscator-plugin-5.5.0.jar'...
-[18:45:04] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/orebfuscator-plugin-5.5.0.jar' in 1186ms.
-[18:45:04] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vulcan-2.9.1.jar' in 1407ms.
-[18:45:05] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.8.jar' in 1908ms.
-[18:45:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 43 plugins
-[18:45:06] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
- - SuperEnchants (2.6.1), Veinminer-Enchantment (2.1.5), toNeko (1.3.9)
-[18:45:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (40):
- - AutoTool (1.2), BattleArena (4.0.0-SNAPSHOT), BattleTracker (4.0.0-SNAPSHOT), BetterMending (2.6.4.2), Chunky (1.4.10), CustomAnvil (1.6.6), CustomItemsLib (1.0.8), DatapackLoader (1.4.1), DeathChest (2.2.7), DecentHolograms (2.8.11), EndPortalTimer (2.1), Essentials (2.21.0-dev+121-f7a8f86), Geyser-Spigot (2.4.4-SNAPSHOT), InstantRestock (2.4.3), LevelTools (1.4.0.2), LevelledMobs (4.1.3 b68), LuckPerms (5.4.142), MobHunting (8.5.4), MobsToEggs (1.7.14), NBTAPI (2.13.2), NaturalGrowth (1.5), OpenShulker (1.3.0), Orebfuscator (5.5.0), PersonalPhantoms (2.0.0), PlaceholderAPI (2.11.6), ProtocolLib (5.3.0), QSFindItemAddOn (2.0.7.0-RELEASE), QuickShop-Hikari (6.2.0.7), RealisticSleep (1.1), Scythe (5.1.1), Sit (1.7.1), SkinsRestorer (15.4.3), TAB (4.1.9), TreeFeller (1.24.2), Vault (1.7.3-b131), Veinminer (2.1.5), Vulcan (2.9.1), WorldEdit (7.3.8+6939-7d32b45), ctLib (0.1.13), dynmap (3.7-SNAPSHOT-948)
-[18:45:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Blindness' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'HealthSteal' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bleed' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Lightning' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Teleport' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Jetpack' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Explosive' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Excavator' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Autosmelt' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Freeze' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Confusion' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Multishoot' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Dash' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bloodlust' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Shockwave' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Veinminer' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'XPBoost' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Enlightened' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'EnderAura' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Frostbite' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Leap' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Speed' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Magnet' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Growth' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Detonate' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Backstabber' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Piercing' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Deflecting' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bait' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Angler' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Abiding' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Disarm' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Archer' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Farmer' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Decapitation' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Dismantle' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Famine' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Spotlight' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Feast' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Updraft' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Lavawalker' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Doublestrike' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Timber' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Missile' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Critical' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Inflame' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Nightowl' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Headshot' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'ArrowStorm' registered successfully.
-[18:45:11] [ServerMain/INFO]: [SuperEnchants] All custom enchantments registered successfully!
-[18:45:12] [ServerMain/INFO]: Loaded 1290 recipes
-[18:45:12] [ServerMain/INFO]: Loaded 1399 advancements
-[18:45:12] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[18:45:12] [Server thread/INFO]: Loading properties
-[18:45:12] [Server thread/INFO]: This server is running Paper version 1.21.1-128-master@d348cb8 (2024-10-21T16:23:24Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[18:45:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:45:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:45:12] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:45:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
-[18:45:13] [Server thread/INFO]: Default game type: SURVIVAL
-[18:45:13] [Server thread/INFO]: Generating keypair
-[18:45:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:45:13] [Server thread/INFO]: Using epoll channel type
-[18:45:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:45:13] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loading 4 libraries... please wait
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.20/kotlin-stdlib-2.0.20.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json/1.7.3/kotlinx-serialization-json-1.7.3.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.7.3/kotlinx-serialization-json-jvm-1.7.3.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.7.3/kotlinx-serialization-core-jvm-1.7.3.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Veinminer] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loading 1 libraries... please wait
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.jar
-[18:45:13] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loading 8 libraries... please wait
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/com/google/inject/guice/7.0.0/guice-7.0.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/cloud/commandframework/cloud-core/1.7.1/cloud-core-1.7.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/cloud/commandframework/cloud-services/1.7.1/cloud-services-1.7.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/io/leangen/geantyref/geantyref/1.3.13/geantyref-1.3.13.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/checkerframework/checker-qual/3.22.1/checker-qual-3.22.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/cloud/commandframework/cloud-bukkit/1.7.1/cloud-bukkit-1.7.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/cloud/commandframework/cloud-brigadier/1.7.1/cloud-brigadier-1.7.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/cloud/commandframework/cloud-tasks/1.7.1/cloud-tasks-1.7.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-platform-bukkit/4.3.0/adventure-platform-bukkit-4.3.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-platform-api/4.3.0/adventure-platform-api-4.3.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-nbt/4.13.0/adventure-nbt-4.13.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-text-serializer-gson/4.13.0/adventure-text-serializer-gson-4.13.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.0/adventure-text-serializer-gson-legacy-impl-4.13.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-platform-facet/4.3.0/adventure-platform-facet-4.3.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-platform-viaversion/4.3.0/adventure-platform-viaversion-4.3.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-text-minimessage/4.14.0/adventure-text-minimessage-4.14.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/net/kyori/adventure-text-serializer-legacy/4.14.0/adventure-text-serializer-legacy-4.14.0.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/bstats/bstats-bukkit/3.0.2/bstats-bukkit-3.0.2.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [DeathChest] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/bstats/bstats-base/3.0.2/bstats-base-3.0.2.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loading 1 libraries... please wait
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar
-[18:45:14] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /home/fujan/minecraft/paper-sivi/mc/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[18:45:15] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.142
-[18:45:15] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[18:45:15] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[18:45:15] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[18:45:15] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+121-f7a8f86
-[18:45:15] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.13.2
-[18:45:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[18:45:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[18:45:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
-[18:45:15] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.8+6939-7d32b45
-[18:45:16] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
-[18:45:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2a034136]
-[18:45:16] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
-[18:45:16] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.3
-[18:45:16] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.1.5
-[18:45:16] [Server thread/INFO]: [ctLib] Loading server plugin ctLib v0.1.13
-[18:45:16] [Server thread/INFO]: [Custom Anvil] Loading server plugin CustomAnvil v1.6.6
-[18:45:16] [Server thread/INFO]: [QuickShop-Hikari] Loading server plugin QuickShop-Hikari v6.2.0.7
-[18:45:16] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the initialization sequence
-[18:45:16] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Bootloader preparing for startup, please wait...
-[18:45:16] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initializing libraries...
-[18:45:20] [Server thread/INFO]: [QuickShop-Hikari] Maven repository mirror test result:
-[18:45:20] [Server thread/INFO]: [QuickShop-Hikari] [US] APACHE: 381ms
-[18:45:20] [Server thread/INFO]: [QuickShop-Hikari] [CN] TENCENT: 441ms
-[18:45:20] [Server thread/INFO]: [QuickShop-Hikari] [US] CENTRAL: 1210ms
-[18:45:20] [Server thread/INFO]: [QuickShop-Hikari] [CN] HUAWEI: 1224ms
-[18:45:20] [Server thread/INFO]: [QuickShop-Hikari] [CN] ALIYUN: 4019ms
-[18:45:20] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading 12 libraries (0 skipped libraries)...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.apache.commons:commons-lang3:3.14.0 [1/12]
-[18:45:21] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-[18:45:21] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: Defaulting to no-operation (NOP) logger implementation
-[18:45:21] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.apache.commons:commons-compress:1.25.0 [2/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.google.code.gson:gson:2.10.1 [3/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.google.guava:guava:33.1.0-jre [4/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.rollbar:rollbar-java:1.9.0 [5/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library cc.carm.lib:easysql-hikaricp:0.4.7 [6/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.h2database:h2:2.1.214 [7/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.konghq:unirest-java:3.14.5 [8/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library net.sourceforge.csvjdbc:csvjdbc:1.0.42 [9/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.dom4j:dom4j:2.1.4 [10/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.vdurmont:semver4j:3.1.0 [11/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.ghostchu.crowdin:crowdinota:1.0.3 [12/12]
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initialing Unirest...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initializing platform...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Platform detected: Paper
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Slf4jLogger initialized
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Platform initialized: com.ghostchu.quickshop.platform.paper.PaperPlatform
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Boot QuickShop instance...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Creating QuickShop instance...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Registering Bukkit Service: com.ghostchu.quickshop.api.QuickShopProvider
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari - Early boot step - Booting up
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Self testing...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Reading the configuration...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] [ConfigUpdater] Saving configuration changes...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Setting up privacy controller...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Setting up QuickShop registry....
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Setting up metrics manager...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Loading player name and unique id mapping...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Loading translations (This may take a while)...
-[18:45:21] [Server thread/INFO]: [QuickShop-Hikari] Please wait us fetch the translation updates from Crowdin OTA service...
-[18:45:21] [Server thread/INFO]: [CrowdinOTA] Downloading Crowdin distribution manifest from remote server...
-[18:45:22] [Server thread/INFO]: [OTAFileInstance-0] Downloading translations for 0 locales...
-[18:45:22] [Server thread/INFO]: [OTAFileInstance-1] Downloading translations for 0 locales...
-[18:45:22] [Server thread/INFO]: [QuickShop-Hikari] Loading up translations from Crowdin OTA, this may need a while...
-[18:45:23] [Server thread/INFO]: [QuickShop-Hikari] Loading up translations from Crowdin OTA, this may need a while...
-[18:45:24] [Server thread/INFO]: [QuickShop-Hikari] Register InventoryWrapper...
-[18:45:24] [Server thread/INFO]: [QuickShop-Hikari] Initializing NexusManager...
-[18:45:24] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari - Early boot step - Complete
-[18:45:24] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Complete (7189ms). Waiting for enable...
-[18:45:24] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.11
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading server plugin BattleArena v4.0.0-SNAPSHOT
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading BattleArena 4.0.0-SNAPSHOT for 1.21.1-128-d348cb8 (MC: 1.21.1)
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Vault v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Tournaments v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Team Heads v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Team Colors v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Scoreboards v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module One in the Chamber v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Duels v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Classes v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Boundary Enforcer v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [BattleArena] Loading module Arena Restoration v1.0.0 by BattlePlugins
-[18:45:24] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.1.3 b68
-[18:45:24] [Server thread/INFO]: [LevelledMobs] Loading commands
-[18:45:24] [Server thread/INFO]: [CustomItemsLib] Loading server plugin CustomItemsLib v1.0.8
-[18:45:24] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-948
-[18:45:24] [Server thread/INFO]: [dynmap] version=1.21.1-128-d348cb8 (MC: 1.21.1)
-[18:45:24] [Server thread/INFO]: [dynmap] Mod Support API available
-[18:45:24] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.0
-[18:45:24] [Server thread/INFO]: [Vulcan] Loading server plugin Vulcan v2.9.1
-[18:45:24] [Server thread/INFO]: [Veinminer-Enchantment] Loading server plugin Veinminer-Enchantment v2.1.5
-[18:45:24] [Server thread/INFO]: [toNeko] Loading server plugin toNeko v1.3.9
-[18:45:24] [Server thread/INFO]: [Sit] Loading server plugin Sit v1.7.1
-[18:45:24] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.4.3
-[18:45:24] [Server thread/INFO]: [DeathChest] Loading server plugin DeathChest v2.2.7
-[18:45:24] [Server thread/INFO]: [TreeFeller] Loading server plugin TreeFeller v1.24.2
-[18:45:24] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.9
-[18:45:24] [Server thread/INFO]: [SuperEnchants] Loading server plugin SuperEnchants v2.6.1
-[18:45:24] [Server thread/INFO]: [Scythe] Loading server plugin Scythe v5.1.1
-[18:45:24] [Server thread/INFO]: [RealisticSleep] Loading server plugin RealisticSleep v1.1
-[18:45:24] [Server thread/INFO]: [QSFindItemAddOn] Loading server plugin QSFindItemAddOn v2.0.7.0-RELEASE
-[18:45:24] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] A Shop Search AddOn for QuickShop developed by myzticbean
-[18:45:24] [Server thread/INFO]: [PersonalPhantoms] Loading server plugin PersonalPhantoms v2.0.0
-[18:45:24] [Server thread/INFO]: [OpenShulker] Loading server plugin OpenShulker v1.3.0
-[18:45:24] [Server thread/INFO]: [NaturalGrowth] Loading server plugin NaturalGrowth v1.5
-[18:45:24] [Server thread/INFO]: [MobsToEggs] Loading server plugin MobsToEggs v1.7.14
-[18:45:24] [Server thread/INFO]: [LevelTools] Loading server plugin LevelTools v1.4.0.2
-[18:45:24] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.4.4-SNAPSHOT
-[18:45:25] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[18:45:25] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[18:45:25] [Server thread/INFO]: [EndPortalTimer] Loading server plugin EndPortalTimer v2.1
-[18:45:25] [Server thread/INFO]: [DatapackLoader] Loading server plugin DatapackLoader v1.4.1
-[18:45:25] [Server thread/INFO]: [MobHunting] Loading server plugin MobHunting v8.5.4
-[18:45:25] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.10
-[18:45:25] [Server thread/INFO]: [BetterMending] Loading server plugin BetterMending v2.6.4.2
-[18:45:25] [Server thread/INFO]: [BattleTracker] Loading server plugin BattleTracker v4.0.0-SNAPSHOT
-[18:45:25] [Server thread/INFO]: [AutoTool] Loading server plugin AutoTool v1.2
-[18:45:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:45:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.142
-[18:45:26] [Server thread/INFO]:         __    
-[18:45:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.142
-[18:45:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:45:26] [Server thread/INFO]: 
-[18:45:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:45:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:45:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:45:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:45:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1828ms)
-[18:45:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[18:45:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[18:45:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[18:45:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[18:45:27] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[18:45:27] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[18:45:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.8+6939-7d32b45
-[18:45:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:45:27] [Server thread/INFO]: WEPIF: Updated config file
-[18:45:27] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[18:45:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[18:45:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.3
-[18:45:30] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[18:45:30] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[18:45:31] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[18:45:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.3]
-[18:45:31] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[18:45:31] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.1.5
-[18:45:31] [Server thread/INFO]: [Veinminer-Enchantment] Enabling Veinminer-Enchantment v2.1.5
-[18:45:31] [Server thread/INFO]: [SuperEnchants] Enabling SuperEnchants v2.6.1
-[18:45:31] [Server thread/INFO]: [SuperEnchants] Loading SuperEnchants v2.6.1 by Aznos
-[18:45:31] [Server thread/INFO]: [SuperEnchants] -------------------------------------
-[18:45:31] [Server thread/INFO]: [SuperEnchants] If you'd like to support SuperEnchants and you find it useful, please consider donating at: https://buymeacoffee.com/aznos
-[18:45:31] [Server thread/INFO]: [SuperEnchants] -------------------------------------
-[18:45:31] [Server thread/INFO]: [SuperEnchants] Disregard any potential warnings above, they are not errors and your plugin will work as intended.
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/WARN]: Nag author(s): '[]' of 'SuperEnchants v2.6.1' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/INFO]: [SuperEnchants] [STDOUT] 
-[18:45:31] [Server thread/WARN]: [SuperEnchants] Could not save lang_en.yml to plugins/SuperEnchants/lang_en.yml because lang_en.yml already exists.
-[18:45:31] [Server thread/WARN]: [SuperEnchants] Could not save lang_de.yml to plugins/SuperEnchants/lang_de.yml because lang_de.yml already exists.
-[18:45:31] [Server thread/WARN]: [SuperEnchants] Could not save lang_pt.yml to plugins/SuperEnchants/lang_pt.yml because lang_pt.yml already exists.
-[18:45:31] [Server thread/WARN]: [SuperEnchants] Could not save lang_es.yml to plugins/SuperEnchants/lang_es.yml because lang_es.yml already exists.
-[18:45:31] [Server thread/WARN]: [SuperEnchants] Could not save lang_fr.yml to plugins/SuperEnchants/lang_fr.yml because lang_fr.yml already exists.
-[18:45:31] [Server thread/WARN]: [SuperEnchants] Could not save lang_nl.yml to plugins/SuperEnchants/lang_nl.yml because lang_nl.yml already exists.
-[18:45:31] [Server thread/INFO]: [EndPortalTimer] Enabling EndPortalTimer v2.1
-[18:45:31] [Server thread/INFO]: [EndPortalTimer] DecentHolograms detected. Hologram feature enabled.
-[18:45:31] [Server thread/INFO]: [DatapackLoader] Enabling DatapackLoader v1.4.1
-[18:45:31] [ForkJoinPool.commonPool-worker-3/INFO]: [DatapackLoader] The '...plugins/DatapackLoader/datapacks' folder is empty. Please execute command 'dl help'.
-[18:45:31] [Server thread/INFO]: Preparing level "world"
-[18:45:32] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer is up to date
-[18:45:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:45:33] [DefaultDispatcher-worker-1/INFO]: [VeinminerUpdater] veinminer-enchantment is up to date
-[18:45:34] [Server thread/INFO]: Time elapsed: 1588 ms
-[18:45:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:45:34] [Server thread/INFO]: Time elapsed: 185 ms
-[18:45:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:45:34] [Server thread/INFO]: Time elapsed: 148 ms
-[18:45:34] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[18:45:34] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[18:45:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+121-f7a8f86
-[18:45:35] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[18:45:35] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[18:45:35] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[18:45:35] [Server thread/INFO]: [Essentials] Found 0 files to convert...
-[18:45:35] [Server thread/INFO]: [Essentials] Ban format update complete.
-[18:45:35] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[18:45:35] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[18:45:35] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[18:45:35] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[18:45:35] [Server thread/INFO]: [Essentials] Done converting mail list.
-[18:45:35] [Server thread/INFO]: [Essentials] Loaded 42679 items from items.json.
-[18:45:35] [Server thread/INFO]: [Essentials] Using locale en_US
-[18:45:35] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[18:45:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[18:45:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[18:45:36] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[18:45:36] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.13.2
-[18:45:36] [Server thread/INFO]: [NBTAPI] Checking bindings...
-[18:45:36] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
-[18:45:36] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
-[18:45:36] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.3
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 4aa9140
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[18:45:36] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[18:45:38] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
-[18:45:38] [Server thread/INFO]: [ctLib] Enabling ctLib v0.1.13
-[18:45:46] [Server thread/INFO]: [ctLib] Loading library kotlin-stdlib
-[18:45:46] [Server thread/INFO]: [Custom Anvil] Enabling CustomAnvil v1.6.6
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Enabling QuickShop-Hikari v6.2.0.7
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the enable sequence
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Registering Bukkit Service: com.ghostchu.quickshop.api.QuickShopProvider
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Starting plugin self-test, please wait...
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Spigot Based Server Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Old QuickShop Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] ModdedServer Based Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] ModdedServer Database Driver Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] CoreSupport Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Virtual DisplayItem Support Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] ProtocolLib Incorrect Locate Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] GameVersion supporting Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Permission Manager Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] PacketListenerAPI Conflict Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Reremake Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] EcoEnchants V11 Check
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] End of life Test
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Reading the configuration...
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] [ConfigUpdater] Saving configuration changes...
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Contributors: Ghost_chu, PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood (KaiKikuchi), sandtechnology, jho5245, cakoyo, Andre601, Ectabro, Chris6ix, portlek, log4b0at, deadman96385, tiararinne, DoctaEnkoda, CarmJos, YuanYuanOwO, Mgazul, mart-r, Tim269, raphtaliapt, creatorfromhell, LoneDev6, Steven-OS, confuxeon, ibmibmibm, judgetread, mfnalex, Warriorrrr, PyvesB, yannicklamprecht, ORelio, RMSCA, Starmism, yiwenwang2090, PaulBGD, Nlkomaru, harry0198, Draesia, Localized community members on Crowdin
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Original author: Netherfoam, Timtower, KaiNoMood, sandtechnology
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Let's start loading the plugin
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Setting up ItemExpressionRegistry...
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Using Virtual Item display, loading ProtocolLib support...
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Successfully loaded ProtocolLib support!
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Setting up database...
-[18:45:46] [Server thread/INFO]: [QuickShop-Hikari] Create database backup...
-[18:45:46] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Starting...
-[18:45:47] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Start completed.
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Checking and updating database columns, it may take a while...
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Finished!
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Selected permission provider: Bukkit
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Registering commands...
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Loaded 1 rules for listener blacklist.
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] EventManager selected: QSEventManager
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Loading shops from database...
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Used 2ms to fetch 0 shops from database.
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Loading shops into memory...
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Used 1ms to load 0 shops into memory (0 shops will be loaded after chunks/world loaded).
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Registering listeners...
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Cleaning MsgUtils...
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Cleaning purchase messages from the database that are over a week old...
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Log actions is enabled. Actions will be logged in the qs.log file!
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] [Shop Purger] Purge not enabled!
-[18:45:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: qs [6.2.0.7]
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] Successfully loaded PlaceHolderAPI support!
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari] [OK] Virtual DisplayItem Support Test
-[18:45:47] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> All Complete. (661ms)
-[18:45:47] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.11
-[18:45:47] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[18:45:47] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[18:45:47] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabling BattleArena v4.0.0-SNAPSHOT
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Team Heads v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Scoreboards v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module One in the Chamber v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Boundary Enforcer v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Tournaments v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Classes v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Arena Restoration v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Duels v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Vault v1.0.0
-[18:45:47] [Server thread/INFO]: [BattleArena] Enabled module Team Colors v1.0.0
-[18:45:47] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.1.3 b68
-[18:45:47] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[18:45:47] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.1 for nametag support
-[18:45:47] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[18:45:47] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[18:45:47] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[18:45:47] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[18:45:47] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[18:45:47] [Server thread/INFO]: [LevelledMobs] Current rules hash: cb2333130b5cd27fb056e621bfdbb4ec28bf7d7227966db48bb82dc40372aefd
-[18:45:47] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[18:45:47] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[18:45:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: LevelledMobs [4.1.3 b68]
-[18:45:47] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[18:45:47] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[18:45:47] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 193ms)
-[18:45:47] [Server thread/INFO]: [CustomItemsLib] Enabling CustomItemsLib v1.0.8
-[18:45:47] [Server thread/INFO]: [CustomItemsLib][Debug] Loading config.yml file, version -1
-[18:45:47] [Server thread/INFO]: [CustomItemsLib][Debug] Initialize database
-[18:45:48] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[18:45:48] [Server thread/INFO]: [CustomItemsLib] Enabling compatibility with ProtocolLib (5.3.0).
-[18:45:48] [Server thread/INFO]: [CustomItemsLib] CustomItemsLib is using EssentialsX Economy via Vault as Economy Provider
-[18:45:48] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-948
-[18:45:48] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
-[18:45:48] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.142 for access control
-[18:45:48] [Server thread/INFO]: [dynmap] Found cwebp at /usr/bin/cwebp and dwebp at /usr/bin/dwebp: webp format enabled
-[18:45:48] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[18:45:50] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[18:45:50] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[18:45:50] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[18:45:50] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[18:45:50] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[18:45:51] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[18:45:51] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-948 is enabled - core version 3.7-SNAPSHOT-949
-[18:45:51] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[18:45:51] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[18:45:51] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[18:45:51] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[18:45:51] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[18:45:51] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[18:45:51] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[18:45:51] [Server thread/INFO]: [dynmap] Enabled
-[18:45:51] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.0
-[18:45:51] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.9.1
-[18:45:51] [Server thread/INFO]: [Vulcan] Server Version: 1.21 detected!
-[18:45:52] [Server thread/INFO]: [Vulcan] BStats enabled!
-[18:45:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: Vulcan [2.9.1]
-[18:45:52] [Server thread/INFO]: [Vulcan] PlaceholderAPI found. Enabling hook!
-[18:45:52] [Server thread/INFO]: [toNeko] Enabling toNeko v1.3.9
-[18:45:52] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
-[18:45:52] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.4.3
-[18:45:52] [Server thread/INFO]: [DeathChest] Enabling DeathChest v2.2.7
-[18:45:52] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world"
-[18:45:52] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[18:45:52] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_nether"
-[18:45:52] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[18:45:52] [Server thread/INFO]: [DeathChest] 0 death chests loaded in world "world_the_end"
-[18:45:52] [Server thread/INFO]: [DeathChest]   Of these 0 have expired
-[18:45:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: DeathChest [2.2.7]
-[18:45:52] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.24.2
-[18:45:52] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.24.2) by ThizThizzyDizzy
-[18:45:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: treefeller [1.0.0]
-[18:45:52] [Server thread/INFO]: [TreeFeller] Server version: 1.21.1-R0.1-SNAPSHOT
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded global values:
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Height: 5
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Min Vertical Log Ratio: 0.5
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Use Tree Saplings: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Grass: [GRASS_BLOCK, DIRT, PODZOL]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Overridables: [SEAGRASS, CAVE_AIR, TALL_SEAGRASS, FERN, TALL_GRASS, WATER, LARGE_FERN, AIR]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {SPRUCE_WOOD=SPRUCE_LOG, ACACIA_WOOD=ACACIA_LOG, BIRCH_WOOD=BIRCH_LOG, JUNGLE_WOOD=JUNGLE_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, DARK_OAK_WOOD=DARK_OAK_LOG, OAK_WOOD=OAK_LOG, WARPED_HYPHAE=WARPED_STEM}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Effects: []
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - With Sneak: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Cascade: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
-[18:45:52] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - AuraSkills Trunk XP: {foraging=1.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - AuraSkills Leaves XP: {foraging=0.0}
-[18:45:52] [Server thread/INFO]: [TreeFeller] - AuraSkills Apply Modifiers: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility AuraSkills: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Compatibility Prism: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[18:45:52] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
-[18:45:52] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
-[18:45:52] [Server thread/INFO]: [TAB] Enabling TAB v4.1.9
-[18:45:52] [Server thread/INFO]: [TAB] Loaded NMS hook in 60ms
-[18:45:53] [Server thread/INFO]: [TAB] Enabled in 209ms
-[18:45:53] [Server thread/INFO]: [Scythe] Enabling Scythe v5.1.1
-[18:45:53] [Server thread/INFO]: [RealisticSleep] Enabling RealisticSleep v1.1
-[18:45:53] [Server thread/INFO]: [QSFindItemAddOn] Enabling QSFindItemAddOn v2.0.7.0-RELEASE
-[18:45:53] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Registering Bukkit event listeners
-[18:45:53] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Config loaded!
-[18:45:53] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Registering commands
-[18:45:53] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Registered /finditem command
-[18:45:53] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Registered /finditemadmin command
-[18:45:53] [Server thread/INFO]: [PersonalPhantoms] Enabling PersonalPhantoms v2.0.0
-[18:45:53] [Server thread/INFO]: [PersonalPhantoms] §5-----------------------
-[18:45:53] [Server thread/INFO]: [PersonalPhantoms] §dPersonalPhantoms v2.0.0
-[18:45:53] [Server thread/INFO]: [PersonalPhantoms] §dBy srnyx
-[18:45:53] [Server thread/INFO]: [PersonalPhantoms] §5-----------------------
-[18:45:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: phantoms [2.0.0]
-[18:45:53] [Server thread/INFO]: [OpenShulker] Enabling OpenShulker v1.3.0
-[18:45:53] [Server thread/INFO]: [NaturalGrowth] Enabling NaturalGrowth v1.5
-[18:45:53] [Server thread/INFO]: [MobsToEggs] Enabling MobsToEggs v1.7.14
-[18:45:53] [Server thread/INFO]: [MobsToEggs] Loading files for MobsToEggs...
-[18:45:53] [Server thread/INFO]: [MobsToEggs] Loading language: en
-[18:45:53] [Server thread/INFO]: [MobsToEggs] Using Dependencies:
-[18:45:53] [Server thread/INFO]: [MobsToEggs] ✔️ [Vault, NBTAPI]
-[18:45:53] [Server thread/INFO]: [MobsToEggs] ❌ [WorldGuard, MythicMobs, StackMob, Towny]
-[18:45:53] [Server thread/INFO]: [LevelTools] Enabling LevelTools v1.4.0.2
-[18:45:53] [Server thread/INFO]:           _____
-[18:45:53] [Server thread/INFO]:  |          |     Created by byteful
-[18:45:53] [Server thread/INFO]:  |          |     Running LevelTools v1.4.0.2 on MC 1.21.1
-[18:45:53] [Server thread/INFO]:  |_____     |     Join https://discord.gg/G8BDgqsuyw for support!
-[18:45:53] [Server thread/INFO]: 
-[18:45:53] [Server thread/INFO]: [LevelTools] Loaded configuration...
-[18:45:53] [Server thread/INFO]: [LevelTools] Loaded block data manager...
-[18:45:53] [Server thread/INFO]: [LevelTools] Checking for updates...
-[18:45:53] [Server thread/INFO]: [LevelTools] Registered listeners...
-[18:45:54] [Server thread/WARN]: [LevelTools] "LevelTools v1.4.0.2" has registered a listener for com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent on method "public void me.byteful.plugin.leveltools.libs.lamp.bukkit.brigadier.PaperCommodore$CommandRegisterListener.onCommandRegistered(com.destroystokyo.paper.event.brigadier.CommandRegisteredEvent<?>)", but the event is Deprecated. "This event has been superseded by the Commands API and will be removed in a future release. Listen to LifecycleEvents.COMMANDS instead."; please notify the authors [byteful].
-[18:45:54] [Server thread/INFO]: [LevelTools] Registered commands...
-[18:45:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: leveltools [1.4.0.2]
-[18:45:54] [Server thread/INFO]: [LevelTools] Successfully started LevelTools v1.4.0.2!
-[18:45:54] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.4.4-SNAPSHOT
-[18:45:54] [Server thread/INFO]: [MobHunting] Enabling MobHunting v8.5.4
-[18:45:54] [Server thread/INFO]: [MobHunting] Your config version is 1
-[18:45:54] [Server thread/INFO]: [MobHunting] Existing config.yml loaded.
-[18:45:54] [Server thread/INFO]: [MobHunting] Config.yml was backed up to plugins/MobHunting/backup/config.yml.bak1
-[18:45:54] [Server thread/INFO]: [MobHunting] Enabling compatibility with Essentials (2.21.0-dev+121-f7a8f86)
-[18:45:54] [Server thread/INFO]: [MobHunting] MobHunting is using EssentialsX Economy via Vault as Economy Provider
-[18:45:54] [Server thread/INFO]: [MobHunting] Enabling compatibility with WorldEdit (7.3.8+6939-7d32b45)
-[18:45:54] [Server thread/ERROR]: [MobHunting] Failed to register events for class one.lindegaard.MobHunting.compatibility.BattleArenaCompat because mc/alk/arena/objects/ArenaPlayer does not exist.
-[18:45:54] [Server thread/INFO]: [MobHunting] Enabling compatibility with BattleArena (4.0.0-SNAPSHOT)
-[18:45:54] [Server thread/INFO]: [MobHunting] Enabling compatibility with PlaceholderAPI (2.11.6).
-[18:45:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: mobhunting [1.0.0]
-[18:45:54] [Server thread/ERROR]: [MobHunting] Failed to register events for class one.lindegaard.MobHunting.compatibility.LevelledMobsCompat because me/lokka30/levelledmobs/LevelInterface does not exist.
-[18:45:54] [Server thread/INFO]: [MobHunting] Enabling Compatibility with LevelledMobs (4.1.3 b68)
-[18:45:55] [Server thread/INFO]: [CustomItemsLib] Enabling compatibility with MobHunting (8.5.4)
-[18:45:55] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.10
-[18:45:55] [Server thread/INFO]: [BetterMending] Enabling BetterMending v2.6.4.2
-[18:45:55] [Server thread/INFO]: [BetterMending] Detected version: 9
-[18:45:55] [Server thread/INFO]: [BetterMending] Embedded version: 9
-[18:45:55] [Server thread/INFO]: [BetterMending] Enabled!
-[18:45:55] [Server thread/INFO]: [BattleTracker] Enabling BattleTracker v4.0.0-SNAPSHOT
-[18:45:55] [Server thread/INFO]: [BattleTracker] BattleArena found. Tracking arena statistics.
-[18:45:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: bt [4.0.0-SNAPSHOT]
-[18:45:55] [Server thread/INFO]: [AutoTool] Enabling AutoTool v1.2
-[18:45:55] [Server thread/INFO]: [spark] Starting background profiler...
-[18:45:56] [Server thread/INFO]: [SuperEnchants] [STDOUT] Registering commands
-[18:45:56] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[18:45:56] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[18:45:56] [Server thread/INFO]: [BattleTracker] Enabled tracking for arena: Skirmish.
-[18:45:56] [Server thread/INFO]: [BattleArena] Loaded arena: Skirmish.
-[18:45:56] [Server thread/INFO]: [BattleTracker] Enabled tracking for arena: FFA.
-[18:45:56] [Server thread/INFO]: [BattleArena] Loaded arena: FFA.
-[18:45:56] [Server thread/INFO]: [BattleTracker] Enabled tracking for arena: Battlegrounds.
-[18:45:56] [Server thread/INFO]: [BattleArena] Loaded arena: Battlegrounds.
-[18:45:56] [Server thread/INFO]: [BattleTracker] Enabled tracking for arena: Deathmatch.
-[18:45:56] [Server thread/INFO]: [BattleArena] Loaded arena: Deathmatch.
-[18:45:56] [Server thread/INFO]: [BattleTracker] Enabled tracking for arena: Colosseum.
-[18:45:56] [Server thread/INFO]: [BattleArena] Loaded arena: Colosseum.
-[18:45:56] [Server thread/INFO]: [BattleTracker] Enabled tracking for arena: Arena.
-[18:45:56] [Server thread/INFO]: [BattleArena] Loaded arena: Arena.
-[18:45:56] [Server thread/INFO]: [BattleArena] Scheduled event for arena FFA in PT30Mm.
-[18:45:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:45:56] [Server thread/INFO]: [Geyser-Spigot] 
-[18:45:56] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.4.4-b694 (git-master-e7ecb55)
-[18:45:56] [Server thread/INFO]: [Geyser-Spigot] 
-[18:45:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[18:46:01] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[18:46:01] [Server thread/INFO]: [Geyser-Spigot] Done (4.762s)! Run /geyser help for help!
-[18:46:01] [Server thread/INFO]: [BattleTracker] Loaded tracker: PvP.
-[18:46:01] [Server thread/INFO]: [BattleTracker] Loaded tracker: PvE.
-[18:46:01] [Server thread/INFO]: Done preparing level "world" (29.744s)
-[18:46:01] [Server thread/INFO]: Running delayed init tasks
-[18:46:01] [Craft Scheduler Thread - 6 - QuickShop-Hikari/INFO]: [QuickShop-Hikari] Start to caching usernames (async)...
-[18:46:01] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
-[18:46:01] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
-[18:46:01] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[18:46:01] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
-[18:46:01] [Server thread/WARN]: [Custom Anvil] Duplicate registered enchantment name. Please check that configuration is using namespace.
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Server version found: 1.21.1-128-d348cb8 (MC: 1.21.1)
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Found QuickShop-Hikari
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Initializing Shop caching
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Unregistered find sub-command for /qs
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Registered finditem sub-command for /qs
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Loaded shops from file
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Found Essentials
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Registering external plugin event listeners
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Registering tasks
-[18:46:02] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Registering anonymous bStats metrics
-[18:46:02] [Server thread/INFO]: [QuickShop-Hikari] Using economy system: EssentialsX Economy
-[18:46:02] [Server thread/WARN]: [QuickShop-Hikari] QuickShop detected that no tax account exists and will try to create one. If you see any errors, please change the tax-account name in the config.yml to that of the Server owner.
-[18:46:02] [Craft Scheduler Thread - 21 - LevelTools/INFO]: [LevelTools] No new updates found.
-[18:46:02] [Server thread/INFO]: [Essentials] Created a User for Tax (2c5f00ba-902c-411b-b9b9-9261cf43aee1) for non Bukkit type: com.earth2me.essentials.OfflinePlayerStub
-[18:46:02] [Server thread/INFO]: [QuickShop-Hikari] Tax account created.
-[18:46:02] [Server thread/INFO]: [QuickShop-Hikari] Selected economy bridge: BuiltIn-Vault
-[18:46:02] [Server thread/INFO]: Done (61.101s)! For help, type "help"
-[18:46:02] [Server thread/INFO]: Timings Reset
-[18:46:03] [Craft Scheduler Thread - 9 - QSFindItemAddOn/INFO]: [QuickShop-FindItemAddOn] [ASYNC] Plugin is up to date!
-[18:46:06] [Server thread/INFO]: [Not Secure] [Server] EndPortalTimer is configured correctly.
-[18:50:48] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[18:55:48] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[19:00:48] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[19:02:41] [Server thread/INFO]: [CustomItemsLib] Checking for new updates...
-[19:02:42] [Craft Scheduler Thread - 17 - CustomItemsLib/INFO]: [CustomItemsLib] No update found.
-[19:04:49] [Server thread/INFO]: This server is running 'MobHunting 8.5.4'.
-[19:05:11] [Server thread/INFO]:  
-[19:05:11] [Server thread/INFO]: LevelledMobs v4.1.3 b68
-[19:05:11] [Server thread/INFO]: The Ultimate RPG Mob Levelling Solution
-[19:05:11] [Server thread/INFO]:  
-[19:05:11] [Server thread/INFO]: Maintainers: PenalBuffalo, lokka30, UltimaOath
-[19:05:11] [Server thread/INFO]: Contributors: See https://tinyurl.com/lm-contributors
-[19:05:11] [Server thread/INFO]: Support for: MC 1.19 - 1.21
-[19:05:11] [Server thread/INFO]:  
-[19:05:48] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[19:10:48] [BGC TaskThread/INFO]: [CustomItemsLib][Debug] Saving CustomItemsLib data
-[19:11:01] [Server thread/INFO]: [MobHunting] Checking for new updates...
-[19:11:02] [Craft Scheduler Thread - 18 - MobHunting/INFO]: [MobHunting] No update found.
-[19:11:05] [Server thread/INFO]: Stopping the server
-[19:11:05] [Server thread/INFO]: Stopping server
-[19:11:05] [Server thread/INFO]: [AutoTool] Disabling AutoTool v1.2
-[19:11:05] [Server thread/INFO]: [BattleTracker] Disabling BattleTracker v4.0.0-SNAPSHOT
-[19:11:05] [Server thread/INFO]: [BetterMending] Disabling BetterMending v2.6.4.2
-[19:11:05] [Server thread/INFO]: [BetterMending] Disabled! See you later!
-[19:11:05] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
-[19:11:05] [Server thread/INFO]: [MobHunting] Disabling MobHunting v8.5.4
-[19:11:06] [Server thread/INFO]: [MobHunting] Closing database connection.
-[19:11:06] [Server thread/INFO]: [MobHunting] MobHunting disabled.
-[19:11:06] [Server thread/INFO]: [DatapackLoader] Disabling DatapackLoader v1.4.1
-[19:11:06] [Server thread/INFO]: [EndPortalTimer] Disabling EndPortalTimer v2.1
-[19:11:06] [Server thread/INFO]: [EndPortalTimer] Plugin disabled.
-[19:11:06] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.4-SNAPSHOT
-[19:11:06] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[19:11:06] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[19:11:06] [Server thread/INFO]: [LevelTools] Disabling LevelTools v1.4.0.2
-[19:11:06] [Server thread/INFO]: [LevelTools] Successfully stopped LevelTools v1.4.0.2.
-[19:11:06] [Server thread/INFO]: [MobsToEggs] Disabling MobsToEggs v1.7.14
-[19:11:06] [Server thread/INFO]: [NaturalGrowth] Disabling NaturalGrowth v1.5
-[19:11:06] [Server thread/INFO]: [OpenShulker] Disabling OpenShulker v1.3.0
-[19:11:06] [Server thread/INFO]: [PersonalPhantoms] Disabling PersonalPhantoms v2.0.0
-[19:11:06] [Server thread/INFO]: [QSFindItemAddOn] Disabling QSFindItemAddOn v2.0.7.0-RELEASE
-[19:11:06] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Saved shops to file
-[19:11:06] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Bye!
-[19:11:06] [Server thread/INFO]: [RealisticSleep] Disabling RealisticSleep v1.1
-[19:11:06] [Server thread/INFO]: [Scythe] Disabling Scythe v5.1.1
-[19:11:06] [Server thread/INFO]: [SuperEnchants] Disabling SuperEnchants v2.6.1
-[19:11:06] [Server thread/INFO]: [TAB] Disabling TAB v4.1.9
-[19:11:06] [Server thread/INFO]: [TAB] Disabled in 0ms
-[19:11:06] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.24.2
-[19:11:06] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.24.2) by ThizThizzyDizzy
-[19:11:06] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
-[19:11:06] [Server thread/INFO]: [DeathChest] Placeholder API expansion has successfully unregistered
-[19:11:06] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.4.3
-[19:11:06] [Server thread/INFO]: [Sit] Disabling Sit v1.7.1
-[19:11:06] [Server thread/INFO]: [toNeko] Disabling toNeko v1.3.9
-[19:11:06] [Server thread/INFO]: [Veinminer-Enchantment] Disabling Veinminer-Enchantment v2.1.5
-[19:11:06] [Server thread/INFO]: [Vulcan] Disabling Vulcan v2.9.1
-[19:11:06] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.5.0
-[19:11:06] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-948
-[19:11:06] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[19:11:06] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[19:11:07] [Server thread/INFO]: [dynmap] Disabled
-[19:11:07] [Server thread/INFO]: [CustomItemsLib] Disabling CustomItemsLib v1.0.8
-[19:11:07] [Server thread/INFO]: [CustomItemsLib][Debug] Saving all rewardblocks to disk.
-[19:11:07] [Server thread/INFO]: [CustomItemsLib][Debug] Saving worldgroups.
-[19:11:07] [Server thread/INFO]: [CustomItemsLib][Debug] Shutdown StoreManager
-[19:11:07] [Server thread/INFO]: [CustomItemsLib][Debug] Shutdown Store
-[19:11:08] [Server thread/INFO]: [CustomItemsLib]  Closing database connection.
-[19:11:08] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.1.3 b68
-[19:11:08] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[19:11:08] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[19:11:08] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 4ms)
-[19:11:08] [Craft Scheduler Thread - 14 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[19:11:08] [Craft Scheduler Thread - 13 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[19:11:08] [Server thread/INFO]: [BattleArena] Disabling BattleArena v4.0.0-SNAPSHOT
-[19:11:08] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.11
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Disabling QuickShop-Hikari v6.2.0.7
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the shutdown sequence
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] QuickShop is finishing remaining work, this may need a while...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Shutting down error reporter...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Unregistering PlaceHolderAPI hooks...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Successfully unregistered PlaceholderAPI hook!
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Unloading all loaded shops...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Stopping shop auto save...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Saving all in-memory changed shops...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Cleaning up shop manager...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Unloading loaded shops...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Saving shops, please allow up to 30 seconds for flush changes into database...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Cleaning up display manager...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Stopping log watcher...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Shutting down scheduled timers...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Shutting down event calendar watcher...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Shutting down update watcher...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Shutting down 3rd-party integrations...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Unload PlaceHolderAPI module successfully!
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Unload packet listeners successfully!
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari] Shutting down database connections...
-[19:11:08] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[19:11:08] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Cleaning up resources...
-[19:11:08] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> All Complete (33ms)
-[19:11:08] [Server thread/INFO]: [Custom Anvil] Disabling CustomAnvil v1.6.6
-[19:11:08] [Server thread/INFO]: [ctLib] Disabling ctLib v0.1.13
-[19:11:08] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.1.5
-[19:11:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.3
-[19:11:08] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.8+6939-7d32b45
-[19:11:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[19:11:08] [Server thread/INFO]: [NBTAPI] Disabling NBTAPI v2.13.2
-[19:11:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+121-f7a8f86
-[19:11:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[19:11:08] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[19:11:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
-[19:11:08] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[19:11:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.142
-[19:11:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:11:08] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:11:08] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:11:08] [Server thread/INFO]: Saving players
-[19:11:08] [Server thread/INFO]: Saving worlds
-[19:11:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[19:11:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[19:11:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:11:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[19:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:11:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:36:44] [Server thread/INFO]: Stopping the server
+[00:36:44] [Server thread/WARN]: java.lang.Throwable: Server stopped
+[00:36:44] [Server thread/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1140)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.halt(MinecraftServer.java:1135)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.server.commands.StopCommand.lambda$register$2(StopCommand.java:12)
+[00:36:44] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:350)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:327)
+[00:36:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.command.VanillaCommandWrapper.execute(VanillaCommandWrapper.java:55)
+[00:36:44] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165)
+[00:36:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1001)
+[00:36:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:986)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1596)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1302)
+[00:36:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329)
+[00:36:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[00:36:44] [Server thread/INFO]: Stopping server
+[00:36:44] [Server thread/INFO]: [AutoTool] Disabling AutoTool v1.2
+[00:36:44] [Server thread/INFO]: [BattleTracker] Disabling BattleTracker v4.0.0-SNAPSHOT
+[00:36:44] [Server thread/INFO]: [BetterMending] Disabling BetterMending v2.6.4.2
+[00:36:44] [Server thread/INFO]: [BetterMending] Disabled! See you later!
+[00:36:44] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.10
+[00:36:44] [Server thread/INFO]: [EndPortalTimer] Disabling EndPortalTimer v2.1
+[00:36:44] [Server thread/INFO]: [EndPortalTimer] Plugin disabled.
+[00:36:44] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+121-f7a8f86
+[00:36:44] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.4.4-SNAPSHOT
+[00:36:44] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[00:36:44] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[00:36:44] [Server thread/INFO]: [LevelTools] Disabling LevelTools v1.4.0.2
+[00:36:44] [Server thread/INFO]: [LevelTools] Successfully stopped LevelTools v1.4.0.2.
+[00:36:44] [Server thread/INFO]: [MobsToEggs] Disabling MobsToEggs v1.7.14
+[00:36:44] [Server thread/INFO]: [MoneyFromMobs] Disabling MoneyFromMobs v4.9
+[00:36:44] [Server thread/INFO]: [NaturalGrowth] Disabling NaturalGrowth v1.5
+[00:36:44] [Server thread/INFO]: [OpenShulker] Disabling OpenShulker v1.3.0
+[00:36:44] [Server thread/INFO]: [PersonalPhantoms] Disabling PersonalPhantoms v2.0.0
+[00:36:44] [Server thread/INFO]: [QSFindItemAddOn] Disabling QSFindItemAddOn v2.0.7.0-RELEASE
+[00:36:44] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Saved shops to file
+[00:36:44] [Server thread/INFO]: [QuickShop-FindItemAddOn] [MAIN] Bye!
+[00:36:44] [Server thread/INFO]: [RealisticSleep] Disabling RealisticSleep v1.1
+[00:36:44] [Server thread/INFO]: [Scythe] Disabling Scythe v5.1.1
+[00:36:44] [Server thread/INFO]: [SuperEnchants] Disabling SuperEnchants v2.6.1
+[00:36:44] [Server thread/INFO]: [TAB] Disabling TAB v4.1.9
+[00:36:44] [Server thread/INFO]: [TAB] Disabled in 0ms
+[00:36:44] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.24.2
+[00:36:44] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.24.2) by ThizThizzyDizzy
+[00:36:44] [Server thread/INFO]: [Vulcan] Disabling Vulcan v2.9.1
+[00:36:44] [Server thread/INFO]: [DeathChest] Disabling DeathChest v2.2.7
+[00:36:44] [Server thread/INFO]: [DeathChest] Placeholder API expansion has successfully unregistered
+[00:36:44] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.4.3
+[00:36:44] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.5.0
+[00:36:44] [Server thread/INFO]: [Sit] Disabling Sit v1.7.1
+[00:36:44] [Server thread/INFO]: [toNeko] Disabling toNeko v1.3.9
+[00:36:44] [Server thread/INFO]: [Veinminer-Enchantment] Disabling Veinminer-Enchantment v2.1.5
+[00:36:44] [Server thread/INFO]: [BattleArena] Disabling BattleArena v4.0.0-SNAPSHOT
+[00:36:44] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-948
+[00:36:44] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[00:36:44] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[00:36:45] [Server thread/INFO]: [dynmap] Disabled
+[00:36:45] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.11
+[00:36:45] [Server thread/INFO]: [InfernalMobs] Disabling InfernalMobs v6.8
+[00:36:45] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.1.3 b68
+[00:36:45] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[00:36:45] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[00:36:45] [Craft Scheduler Thread - 11 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[00:36:45] [Craft Scheduler Thread - 9 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[00:36:45] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 8ms)
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Disabling QuickShop-Hikari v6.2.0.7
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the shutdown sequence
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] QuickShop is finishing remaining work, this may need a while...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Shutting down error reporter...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Unregistering PlaceHolderAPI hooks...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Successfully unregistered PlaceholderAPI hook!
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Unloading all loaded shops...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Stopping shop auto save...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Saving all in-memory changed shops...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Cleaning up shop manager...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Unloading loaded shops...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Saving shops, please allow up to 30 seconds for flush changes into database...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Cleaning up display manager...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Stopping log watcher...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Shutting down scheduled timers...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Shutting down event calendar watcher...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Shutting down update watcher...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Shutting down 3rd-party integrations...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Unload PlaceHolderAPI module successfully!
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Unload packet listeners successfully!
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari] Shutting down database connections...
+[00:36:45] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[00:36:45] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Shutdown completed.
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Cleaning up resources...
+[00:36:45] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> All Complete (78ms)
+[00:36:45] [Server thread/INFO]: [Custom Anvil] Disabling CustomAnvil v1.6.6
+[00:36:45] [Server thread/INFO]: [ctLib] Disabling ctLib v0.1.13
+[00:36:45] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.1.5
+[00:36:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.4.3
+[00:36:45] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.8+6939-7d32b45
+[00:36:45] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[00:36:45] [Server thread/INFO]: [NBTAPI] Disabling NBTAPI v2.13.2
+[00:36:45] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+121-f7a8f86
+[00:36:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[00:36:45] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[00:36:45] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[00:36:45] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[00:36:45] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.142
+[00:36:45] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:36:45] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:36:45] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:36:45] [Server thread/INFO]: Saving players
+[00:36:46] [Server thread/INFO]: Saving worlds
+[00:36:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[00:36:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[00:36:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:36:46] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[00:36:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:36:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:36:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:36:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:36:46] [Thread-0/WARN]: java.lang.Throwable: Server stopped
+[00:36:46] [Thread-0/WARN]: 	at io.papermc.paper.util.TraceUtil.dumpTraceForThread(TraceUtil.java:16)
+[00:36:46] [Thread-0/WARN]: 	at net.minecraft.server.MinecraftServer.safeShutdown(MinecraftServer.java:1140)
+[00:36:46] [Thread-0/WARN]: 	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:16)
